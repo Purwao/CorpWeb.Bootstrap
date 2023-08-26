@@ -1,0 +1,54 @@
+.background{
+    color: #fff;
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:url(overlay.png),url(Screenshot\ \(92\).png);
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+.tengah{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.y{
+    margin-top: 30%;
+    transform: translateY(-60%);
+}
+
+.besar{
+    font-size: 7vh;
+}
+
+.tipis{
+    font-size:medium;
+    font-weight: lighter;
+}
+
+
+
+
+a{   
+    border-radius: 10%;
+    padding: 10px;
+    background: rgb(239, 182, 108);
+    
+}
+
+a:hover{
+    border-radius: 20%;
+    padding: 10px;
+    background-color:grey;
+    transition-duration: 1s;
+}
+
+
+
